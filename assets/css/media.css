@@ -1,0 +1,110 @@
+@media only screen and (max-width: 768px){
+  
+  [class*="col-"]{
+    width: 100%;
+  }
+
+  body{
+    margin: 0;
+    padding: 0; 
+  }
+
+  /*LOGO PRINCIPAL*/
+  #container1{
+  	background: rgba(117,2,113,1);
+    background: -moz-linear-gradient(-45deg, rgba(117,2,113,1) 0%, rgba(117,2,113,1) 30%, rgba(168,0,119,1) 59%, rgba(219,54,164,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(117,2,113,1)), color-stop(30%, rgba(117,2,113,1)), color-stop(59%, rgba(168,0,119,1)), color-stop(100%, rgba(219,54,164,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(117,2,113,1) 0%, rgba(117,2,113,1) 30%, rgba(168,0,119,1) 59%, rgba(219,54,164,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(117,2,113,1) 0%, rgba(117,2,113,1) 30%, rgba(168,0,119,1) 59%, rgba(219,54,164,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(117,2,113,1) 0%, rgba(117,2,113,1) 30%, rgba(168,0,119,1) 59%, rgba(219,54,164,1) 100%);
+  	width: 100%;
+  	height: 100vh
+  }
+
+  #row1 img{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 65%;
+  }
+
+  /*PAGINA PRINCIPAL*/
+  #container2{
+    background-image: url(../../images/lyft.jpg);
+    background-size: cover;
+    background-position: 20% 0%;
+    height: 100vh;
+  }
+
+  #row2 img{
+    width: 25%;
+    height: 25%;
+    margin-left: 35%;
+    margin-top: 4%;
+  }
+
+  #row21 img{
+    width: 60%;
+    height: 60%;
+    margin-left: 20%;
+    margin-top: 40%;
+  }
+
+  #row22 button{
+    margin-left: 13%;
+    margin-top: 55%;
+    width: 30%;
+    height: 50px;
+    color: #FFF;
+    font-size: 20px;
+    border: 1.5px solid #FFF;
+  }
+
+  /*SING UP*/
+  #title h3{
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+  }
+
+  #title h5{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  #title hr{
+    border: 1.5px solid #A305B3;
+  }
+
+  .input-group{
+    margin-top: 15%;
+  }
+
+  #input{
+    height: 40px;
+  }
+
+  #subtitle{
+    font-family: 'BenchNine', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 3%;
+  }
+
+  #next{
+    margin-top: 5%;
+    width: 100%;
+    height: 100%;
+    font-family: 'BenchNine', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #A305B3;
+  }
+
+  #next button{
+    border-radius: 7px;
+    border: 1.5px solid #A305B3;
+  }
